@@ -1,0 +1,5 @@
+' GET is a dynamically-typed interpreted language written in C#
+' GET is somewhat inspired by BASIC
+
+' in GET, each command you can do is a function, and must be uppercase
+OUT "hello!"

@@ -1,0 +1,11 @@
+INST MUT a List
+APPEND a "hello"
+APPEND a 20
+
+LEN aLength a
+OUT aLength
+
+INDEX item a 1
+OUT item
+
+OUT a

@@ -1,0 +1,15 @@
+SUB FIZZBUZZ
+    FOR i 0 99
+        IF (i % 3 == 0 && i % 5 == 0)
+            OUT "fizzbuzz"
+        ORIF (i % 3 == 0)
+            OUT "fizz"
+        ORIF (i % 5 == 0)
+            OUT "buzz"
+        OTHERWISE
+            OUT i
+        END
+    END
+END
+
+FIZZBUZZ
